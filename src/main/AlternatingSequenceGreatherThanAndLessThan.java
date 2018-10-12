@@ -1,8 +1,9 @@
 package main;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 public class AlternatingSequenceGreatherThanAndLessThan {
 
@@ -63,9 +64,9 @@ public class AlternatingSequenceGreatherThanAndLessThan {
         int[] b = {10,1,15,30,2,6};
         int[] c= {100};
 
-        System.out.println(solution(a));
-        System.out.println(solution(b));
-        System.out.println(solution(c));
+        System.out.println(solution(a)); //expect 5
+        System.out.println(solution(b)); //expect 4
+        System.out.println(solution(c)); //expect 1
     }
 
 }
